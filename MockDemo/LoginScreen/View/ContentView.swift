@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var loginVM = LoginViewModel(service: Webservice())
+    @StateObject private var loginVM = LoginViewModel(service: NetworkServiceFactory.create())
     @State private var message: String = ""
     
     var errorMessage: String {
