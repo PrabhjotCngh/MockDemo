@@ -12,6 +12,7 @@
 		8D63A0952A67170100543E8A /* NetworkServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63A0942A67170100543E8A /* NetworkServiceFactory.swift */; };
 		8D63A0982A67183200543E8A /* MockWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63A0902A6715F300543E8A /* MockWebservice.swift */; };
 		8D63A0992A67185000543E8A /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF90582A65C6B200AFB767 /* LoginResponse.swift */; };
+		8D63A09C2A6E9CB300543E8A /* LoginPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63A09B2A6E9CB300543E8A /* LoginPageObject.swift */; };
 		8DDF902A2A61AB8100AFB767 /* MockDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF90292A61AB8100AFB767 /* MockDemoApp.swift */; };
 		8DDF902C2A61AB8100AFB767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF902B2A61AB8100AFB767 /* ContentView.swift */; };
 		8DDF902E2A61AB8300AFB767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDF902D2A61AB8300AFB767 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		8D63A0902A6715F300543E8A /* MockWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebservice.swift; sourceTree = "<group>"; };
 		8D63A0942A67170100543E8A /* NetworkServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceFactory.swift; sourceTree = "<group>"; };
+		8D63A09B2A6E9CB300543E8A /* LoginPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageObject.swift; sourceTree = "<group>"; };
 		8DDF90262A61AB8100AFB767 /* MockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDF90292A61AB8100AFB767 /* MockDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDemoApp.swift; sourceTree = "<group>"; };
 		8DDF902B2A61AB8100AFB767 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 			path = Factories;
 			sourceTree = "<group>";
 		};
+		8D63A09A2A6E9C9600543E8A /* Page Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8D63A09B2A6E9CB300543E8A /* LoginPageObject.swift */,
+			);
+			path = "Page Objects";
+			sourceTree = "<group>";
+		};
 		8DDF901D2A61AB8100AFB767 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +164,7 @@
 		8DDF90432A61AB8400AFB767 /* MockDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
+				8D63A09A2A6E9C9600543E8A /* Page Objects */,
 				8D63A08F2A6715D700543E8A /* Mocks */,
 				8DDF90442A61AB8400AFB767 /* MockDemoUITests.swift */,
 				8DDF90462A61AB8400AFB767 /* MockDemoUITestsLaunchTests.swift */,
@@ -362,6 +373,7 @@
 				8D63A0922A67161000543E8A /* WebService.swift in Sources */,
 				8DDF90452A61AB8400AFB767 /* MockDemoUITests.swift in Sources */,
 				8D63A0992A67185000543E8A /* LoginResponse.swift in Sources */,
+				8D63A09C2A6E9CB300543E8A /* LoginPageObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
